@@ -1,3 +1,48 @@
 .projects {
   height: 1000px;
+
+  &-title {
+    margin-top: 100px;
+    
+    &__title {
+      margin: 35px 0 165px;
+      font-size: 44px;
+      font-weight: bold;
+      color: #2c4058;
+      text-transform: uppercase;
+    }
+  }
+
+  &-block {
+    &__img {
+      @include size (285px, 214px);
+      &--big {
+        @include size (580px, 438px);
+        background: url(../images/Gallery1big.png) 100% 100% no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      &--small1 {
+        background: url(../images/Gallery2.png) 100% 100% no-repeat;
+        background-size: cover;
+        margin-bottom: 10px;
+      }
+      &--small2 {
+        background: url(../images/Gallery3.png) 100% 100% no-repeat;
+        background-size: cover;
+      }
+      &--small3 {
+        background: url(../images/Gallery4.png) 100% 100% no-repeat;
+        background-size: cover;
+        margin-bottom: 10px;
+      }
+      &--small4 {
+        background: url(../images/Gallery5.png) 100% 100% no-repeat;
+        background-size: cover;
+      }
+    }
+    &-wrapper {
+      padding-right: 0;
+    }
+  }
 }

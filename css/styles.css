@@ -294,15 +294,17 @@ body, html {
   text-transform: uppercase;
 }
 .news-block__article {
-  width: 370px;
+  width: 350px;
   height: 514px;
+  background: none;
+}
+.news-block__article-text {
+  width: 350px;
+  height: 274px;
   background: #fff;
 }
-.news-block__article:nth-of-type(2) {
-  margin: 0 30px;
-}
 .news-block__img {
-  width: 370px;
+  width: 350px;
   height: 240px;
   background-size: cover;
   color: #2c4058;
@@ -318,7 +320,7 @@ body, html {
   background-size: cover;
 }
 .news-block__subtitle {
-  margin: 25px 73px 15px 21px;
+  padding: 25px 53px 15px 21px;
   font-size: 22px;
   font-weight: bold;
   line-height: 1.55;
@@ -354,10 +356,84 @@ body, html {
 }
 .news-block__author-name {
   width: 150px;
+  font-size: 18px;
+  color: #2c4058;
+}
+.news-block__author-date {
+  font-size: 14px;
+  color: #55b7ff;
+  margin-top: 8px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .slick-dots {
+  position: absolute;
+  top: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 50%;
 }
 
 .projects {
   height: 1000px;
+}
+.projects-title {
+  margin-top: 100px;
+}
+.projects-title__title {
+  margin: 35px 0 165px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #2c4058;
+  text-transform: uppercase;
+}
+.projects-block__img {
+  width: 285px;
+  height: 214px;
+}
+.projects-block__img--big {
+  width: 580px;
+  height: 438px;
+  background: url(../images/Gallery1big.png) 100% 100% no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.projects-block__img--small1 {
+  background: url(../images/Gallery2.png) 100% 100% no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.projects-block__img--small2 {
+  background: url(../images/Gallery3.png) 100% 100% no-repeat;
+  background-size: cover;
+}
+.projects-block__img--small3 {
+  background: url(../images/Gallery4.png) 100% 100% no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.projects-block__img--small4 {
+  background: url(../images/Gallery5.png) 100% 100% no-repeat;
+  background-size: cover;
+}
+.projects-block-wrapper {
+  padding-right: 0;
 }
 
 .contact {
