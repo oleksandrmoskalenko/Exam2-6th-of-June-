@@ -13,3 +13,21 @@ $(document).ready(function () {
     dots: true,
   })
 })
+
+let map,
+  coords = { lat: 40.685104, lng: -73.899239 },
+  marker,
+  info,
+  content = 'We`re here'
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: coords,
+    zoom: 13,
+  })
+
+  marker = new google.maps.Marker({
+    position: coords,
+    map,
+    icon: 'images/MapMarker.png'
+  })
+}

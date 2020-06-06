@@ -9,6 +9,10 @@
 	<meta name="author" content="Admin">
 	<title>Exam 2</title>
 
+	<link rel="stylesheet" href="fonts/gothambold/gothambold1.ttf">
+	<link rel="stylesheet" href="fonts/GothamBook/GothamBook.ttf">
+	<link rel="stylesheet" href="fonts/Gotham Medium Regular/Gotham Medium Regular.ttf">
+
 	<link rel="icon" href="images/favicon.png">
 	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/slick.css">
@@ -252,16 +256,25 @@
 						<div class="col-12 projects-block__img projects-block__img--small4"></div>
 					</div>
 				</div>
+				<div class="d-flex justify-content-center projects-wrapper">
+					<button class="projects__button">See more</button>
+				</div>
+				<img src="images/Gallery1-360.png" alt="360deg" class="projects__logo">
 			</div>
 		</div>
 	</section>
 
+	<section class="map" id="map"></section>
+
 	<section class="contact" id="contact">
 		<div class="container">
 			<div class="row">
+				<div class="col-12 d-flex flex-column justify-content-center align-items-center contact-title">
+					<div class="line"></div>
+					<h1 class="contact-title__title">Get in touch</h1>
+				</div>
 				<div class="col-12">
 					<div class="contact-block">
-						CONTACT
 					</div>
 				</div>
 			</div>
@@ -271,10 +284,32 @@
 	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<div class="footer-block">
-						FOOTER QWm
+				<div class="col-12 d-flex justify-content-between navigation-block navigation-block--footer">
+					<a href="#" class="navigation__link">
+						<h1><img src="images/headerLogo.png" alt="logo-monticello"></h1>
+					</a>
+					<div class="d-flex justify-content-between align-items-center navigation-block__social">
+						<a href="https://www.facebook.com" class="navigation-block__link">
+							<img src="images/Logo-facebook.png" alt="facebook" class="navigation-block__item">
+						</a>
+						<a href="https://twitter.com" class="navigation-block__link">
+							<img src="images/Logo-twitter.png" alt="twitter" class="navigation-block__item">
+						</a>
+						<a href="https://instagram.com" class="navigation-block__link">
+							<img src="images/Logo-instagram.png" alt="instagram" class="navigation-block__item">
+						</a>
 					</div>
+				</div>
+				<div class="footer-block">
+					<p class="footer-block__text">
+						Copyrights © 2017 Monticello Group
+					</p>
+					<p class="footer-block__text">
+						|
+					</p>
+					<p class="footer-block__text">
+						Made with &#9829; by Ga Huy
+					</p>
 				</div>
 			</div>
 		</div>
@@ -284,6 +319,8 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiOyrmgUqTriZnnSRF0oK8XZpZZMc47Bw&callback=initMap"
+		async defer></script>
 </body>
 
 </html>

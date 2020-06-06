@@ -22,6 +22,7 @@
       font-weight: bold;
       color: #fff;
       text-transform: uppercase;
+      font-family: $Gotham_Bold;
     }
   }
 
@@ -57,6 +58,7 @@
       font-size: 22px;
       font-weight: bold;
       line-height: 1.55;
+      font-family: $Gotham_Bold;
     }
 
     &__text {
@@ -64,11 +66,13 @@
       line-height: 30px;
       color: #4b5562;
       margin: 0 30px 0 20px;
+      font-family: 'OpenSans', sans-serif;
     }
 
     &__author {
       margin-left: 20px;
       height: 70px;
+      font-family: $Gotham_Book;
       &-img {
         @include size(50px);
         margin-right: 20px;

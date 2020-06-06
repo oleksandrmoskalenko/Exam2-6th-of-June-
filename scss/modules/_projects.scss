@@ -1,5 +1,6 @@
 .projects {
   height: 1000px;
+  position: relative;
 
   &-title {
     margin-top: 100px;
@@ -10,6 +11,7 @@
       font-weight: bold;
       color: #2c4058;
       text-transform: uppercase;
+      font-family: $Gotham_Bold;
     }
   }
 
@@ -44,5 +46,27 @@
     &-wrapper {
       padding-right: 0;
     }
+  }
+
+  &__button {
+    @include size (190px, 50px);
+    font-size: 14px;
+    color: #2c4058;
+    background-color: #fff;
+    border: solid 1px #2c4058;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-family: $Gotham_Book;
+  }
+
+  &-wrapper {
+    width: 100%;
+  }
+
+  &__logo {
+    position: absolute;
+    @include size(80px);
+    top: 53%;
+    left: 30.5%;
   }
 }

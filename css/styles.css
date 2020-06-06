@@ -112,12 +112,14 @@ body, html {
   line-height: 0.28;
   letter-spacing: 4px;
   margin: 100px 0 44px;
+  font-family: "gothambold1", sans-serif;
 }
 .header-block__subtitle {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.22;
   letter-spacing: 5.4px;
+  font-family: "gothambold1", sans-serif;
 }
 .header__scroll-down {
   display: flex;
@@ -144,8 +146,22 @@ body, html {
   }
 }
 .footer {
-  background: violet;
-  font-size: 50px;
+  height: 524px;
+  background: url(../images/BackgroundFooter.png);
+}
+.footer-block {
+  margin: 250px 0 0 20px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "GothamBook", sans-serif;
+}
+.footer-block__text {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation-block--footer {
+  top: 200px;
 }
 
 .navigation {
@@ -165,6 +181,7 @@ body, html {
 
 .menu {
   height: 50px;
+  font-family: "GothamBook", sans-serif;
 }
 .menu__link {
   text-decoration: none;
@@ -205,6 +222,7 @@ body, html {
   font-weight: bold;
   color: #2c4058;
   text-transform: uppercase;
+  font-family: "gothambold1", sans-serif;
 }
 .about-block {
   width: 880px;
@@ -227,18 +245,21 @@ body, html {
 .about-block__subsubtitle {
   font-size: 22px;
   text-transform: uppercase;
+  font-family: "GothamBook", sans-serif;
 }
 .about-block__subtitle {
   font-size: 44px;
   font-weight: bold;
   margin: 10px 0 29px;
   text-transform: uppercase;
+  font-family: "gothambold1", sans-serif;
 }
 .about-block__text {
   font-size: 18px;
   line-height: 30px;
   color: #4b5562;
   margin-bottom: 36px;
+  font-family: "OpenSans", sans-serif;
 }
 .about-block__button {
   width: 190px;
@@ -249,10 +270,12 @@ body, html {
   border: solid 1px #2c4058;
   text-transform: uppercase;
   margin-bottom: 60px;
+  font-family: "GothamBook", sans-serif;
 }
 .about-block__undertext {
   font-size: 18px;
   font-style: italic;
+  font-family: "GothamBook", sans-serif;
 }
 .about-block__shadow {
   position: absolute;
@@ -292,6 +315,7 @@ body, html {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  font-family: "gothambold1", sans-serif;
 }
 .news-block__article {
   width: 350px;
@@ -324,16 +348,19 @@ body, html {
   font-size: 22px;
   font-weight: bold;
   line-height: 1.55;
+  font-family: "gothambold1", sans-serif;
 }
 .news-block__text {
   font-size: 18px;
   line-height: 30px;
   color: #4b5562;
   margin: 0 30px 0 20px;
+  font-family: "OpenSans", sans-serif;
 }
 .news-block__author {
   margin-left: 20px;
   height: 70px;
+  font-family: "GothamBook", sans-serif;
 }
 .news-block__author-img {
   width: 50px;
@@ -392,6 +419,7 @@ body, html {
 
 .projects {
   height: 1000px;
+  position: relative;
 }
 .projects-title {
   margin-top: 100px;
@@ -402,6 +430,7 @@ body, html {
   font-weight: bold;
   color: #2c4058;
   text-transform: uppercase;
+  font-family: "gothambold1", sans-serif;
 }
 .projects-block__img {
   width: 285px;
@@ -435,8 +464,50 @@ body, html {
 .projects-block-wrapper {
   padding-right: 0;
 }
+.projects__button {
+  width: 190px;
+  height: 50px;
+  font-size: 14px;
+  color: #2c4058;
+  background-color: #fff;
+  border: solid 1px #2c4058;
+  text-transform: uppercase;
+  margin-top: 60px;
+  font-family: "GothamBook", sans-serif;
+}
+.projects-wrapper {
+  width: 100%;
+}
+.projects__logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 53%;
+  left: 30.5%;
+}
 
 .contact {
+  position: absolute;
+  top: 4800px;
+  left: calc(50% - 385px);
+  background: #fff;
+  width: 770px;
+  height: 450px;
+}
+.contact-title {
+  margin-top: 70px;
+}
+.contact-title__title {
+  margin: 35px 0 165px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #2c4058;
+  text-transform: uppercase;
+  font-family: "gothambold1", sans-serif;
+}
+
+.map {
+  width: 100%;
   height: 700px;
 }
 
