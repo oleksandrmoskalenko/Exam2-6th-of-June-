@@ -92,12 +92,12 @@ body, html {
 
 .header {
   height: 800px;
-  background: url("/images/HeaderBG.png") 100% 100% no-repeat;
+  background: url("../images/HeaderBG.png") 100% 100% no-repeat;
   background-size: cover;
   color: #fff;
 }
 .header .wrapper {
-  background: url("/images/HeaderBG2.png") 100% 100% no-repeat;
+  background: url("../images/HeaderBG2.png") 100% 100% no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -216,10 +216,10 @@ body, html {
   height: 470px;
 }
 .about-block__img--trade {
-  background: url(/images/tradeCenter.png) no-repeat;
+  background: url(../images/tradeCenter.png) no-repeat;
 }
 .about-block__img--commerce {
-  background: url(/images/CommerceCenter.png) no-repeat;
+  background: url(../images/CommerceCenter.png) no-repeat;
 }
 .about-block__info {
   color: #2c4058;
@@ -272,12 +272,12 @@ body, html {
 
 .news {
   height: 1035px;
-  background: url(/images/NewsBG2.png) 100% 100% no-repeat;
+  background: url(../images/NewsBG2.png) 100% 100% no-repeat;
   background-size: cover;
 }
 .news .wrapper {
   height: 1035px;
-  background: url(/images/NewsBG.png) 100% 100% no-repeat;
+  background: url(../images/NewsBG.png) 100% 100% no-repeat;
   background-size: cover;
 }
 .news-title {
@@ -308,13 +308,13 @@ body, html {
   color: #2c4058;
 }
 .news-block__img--1 {
-  background: url(/images/News1-img.png) 45% 50% no-repeat;
+  background: url(../images/News1-img.png) 45% 50% no-repeat;
 }
 .news-block__img--2 {
-  background: url(/images/News2-img.png) 100% 100% no-repeat;
+  background: url(../images/News2-img.png) 100% 100% no-repeat;
 }
 .news-block__img--3 {
-  background: url(/images/News3-img.png) 100% 25% no-repeat;
+  background: url(../images/News3-img.png) 100% 25% no-repeat;
   background-size: cover;
 }
 .news-block__subtitle {
@@ -341,15 +341,15 @@ body, html {
   border-radius: 50%;
 }
 .news-block__author-img--1 {
-  background: url(/images/Article1.png) 100% 100% no-repeat;
+  background: url(../images/Article1.png) 100% 100% no-repeat;
   background-size: cover;
 }
 .news-block__author-img--2 {
-  background: url(/images/Article2.png) 100% 100% no-repeat;
+  background: url(../images/Article2.png) 100% 100% no-repeat;
   background-size: cover;
 }
 .news-block__author-img--3 {
-  background: url(/images/Article3.png) 100% 100% no-repeat;
+  background: url(../images/Article3.png) 100% 100% no-repeat;
   background-size: cover;
 }
 .news-block__author-name {

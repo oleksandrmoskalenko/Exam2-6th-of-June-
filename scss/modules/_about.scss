@@ -20,10 +20,10 @@
     &__img {
       @include size(630px,470px);
       &--trade{
-        background: url(/images/tradeCenter.png) no-repeat;
+        background: url(../images/tradeCenter.png) no-repeat;
       }
       &--commerce{
-        background: url(/images/CommerceCenter.png) no-repeat;
+        background: url(../images/CommerceCenter.png) no-repeat;
       }
     }
 

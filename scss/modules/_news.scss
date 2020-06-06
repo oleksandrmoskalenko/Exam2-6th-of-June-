@@ -1,11 +1,11 @@
 .news {
   height: 1035px;
-  background: url(/images/NewsBG2.png) 100% 100% no-repeat;
+  background: url(../images/NewsBG2.png) 100% 100% no-repeat;
   background-size: cover;
 
   .wrapper {
     height: 1035px;
-    background: url(/images/NewsBG.png) 100% 100% no-repeat;
+    background: url(../images/NewsBG.png) 100% 100% no-repeat;
     background-size: cover;
   }
 
@@ -41,13 +41,13 @@
       color: #2c4058;
 
       &--1 {
-        background: url(/images/News1-img.png) 45% 50% no-repeat;
+        background: url(../images/News1-img.png) 45% 50% no-repeat;
       }
       &--2 {
-        background: url(/images/News2-img.png) 100% 100% no-repeat;
+        background: url(../images/News2-img.png) 100% 100% no-repeat;
       }
       &--3 {
-        background: url(/images/News3-img.png) 100% 25% no-repeat;
+        background: url(../images/News3-img.png) 100% 25% no-repeat;
         background-size: cover;
       }
     }
@@ -76,15 +76,15 @@
         border-radius: 50%;
 
         &--1 {
-        background: url(/images/Article1.png) 100% 100% no-repeat;
+        background: url(../images/Article1.png) 100% 100% no-repeat;
         background-size: cover;
         }
         &--2 {
-          background: url(/images/Article2.png) 100% 100% no-repeat;
+          background: url(../images/Article2.png) 100% 100% no-repeat;
           background-size: cover;
           }
         &--3 {
-        background: url(/images/Article3.png) 100% 100% no-repeat;
+        background: url(../images/Article3.png) 100% 100% no-repeat;
         background-size: cover;
         }
       }
