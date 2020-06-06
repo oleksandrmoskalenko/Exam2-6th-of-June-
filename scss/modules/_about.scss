@@ -1,0 +1,82 @@
+.about{
+  height: 1633px;
+  position: relative;
+
+  &-title {
+    margin-top: 100px;
+    
+    &__title {
+      margin: 35px 0 165px;
+      font-size: 44px;
+      font-weight: bold;
+      color: #2c4058;
+      text-transform: uppercase;
+    }
+  }
+
+  &-block {
+    @include size(880px, 470px);
+    margin-bottom: 210px;
+    &__img {
+      @include size(630px,470px);
+      &--trade{
+        background: url(/images/tradeCenter.png) no-repeat;
+      }
+      &--commerce{
+        background: url(/images/CommerceCenter.png) no-repeat;
+      }
+    }
+
+    &__info {
+      color: #2c4058;
+    }
+
+    &__subsubtitle {
+      font-size: 22px;
+      text-transform: uppercase;
+    }
+    &__subtitle {
+      font-size: 44px;
+      font-weight: bold;
+      margin: 10px 0 29px;
+      text-transform: uppercase;
+    }
+
+    &__text {
+      font-size: 18px;
+      line-height: 30px;
+      color: #4b5562;
+      margin-bottom: 36px;
+    }
+
+    &__button {
+      @include size (190px, 50px);
+      font-size: 14px;
+      color: #2c4058;
+      background-color: #fff;
+      border: solid 1px #2c4058;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+    }
+
+    &__undertext {
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    &__shadow {
+      position: absolute;
+      @include size(585px, 470px);
+      &--blue {
+        top: 273px;
+        left: 0;
+        background: #55b7ff;
+      }
+      &--violet {
+        top: 953px;
+        right: 0;
+        background: #7e5aff;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 53px;
+  left: 0;
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  
+  &-block {
+    &__social {
+      @include size(190px,50px)
+    }
+  }
+}
+
+.menu {
+  height: 50px;
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__item {
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+
+.nav {
+  width: 650px;
+}
+
+.circle {
+  margin-right: 5px;
+  margin-top: 2px;
+  @include size (9px);
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  &:hover {
+    background:#fff;
+  }
+}
