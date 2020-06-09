@@ -17,9 +17,9 @@
 
   &-block {
     &__img {
-      @include size (285px, 214px);
+      @include size (275px, 214px);
       &--big {
-        @include size (580px, 438px);
+        @include size (560px, 438px);
         background: url(../images/Gallery1big.png) 100% 100% no-repeat;
         background-size: cover;
         position: relative;
@@ -66,7 +66,7 @@
   &__logo {
     position: absolute;
     @include size(80px);
-    top: 53%;
-    left: 30.5%;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
   }
 }
