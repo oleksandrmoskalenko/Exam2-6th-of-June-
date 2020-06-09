@@ -18,6 +18,12 @@
   &-block {
     @include size(880px, 470px);
     margin-bottom: 210px;
+
+    &__marker {
+      @include size(18px);
+      margin-right: 5px;
+    }
+
     &__img {
       @include size(630px,470px);
       &--trade{
@@ -38,7 +44,7 @@
       font-family: $Gotham_Book;
     }
     &__subtitle {
-      font-size: 44px;
+      font-size: 39px;
       font-weight: bold;
       margin: 10px 0 29px;
       text-transform: uppercase;
@@ -51,6 +57,8 @@
       color: #4b5562;
       margin-bottom: 36px;
       font-family: 'OpenSans', sans-serif;
+      overflow: hidden;
+      height: 85px;
     }
 
     &__button {
@@ -62,6 +70,13 @@
       text-transform: uppercase;
       margin-bottom: 60px;
       font-family: $Gotham_Book;
+
+      &:hover {
+        background: #55b7ff;
+        border-color: #55b7ff;
+        color: #fff;
+        font-size: 16px;
+      }
     }
 
     &__undertext {

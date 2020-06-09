@@ -230,6 +230,11 @@ body, html {
   height: 470px;
   margin-bottom: 210px;
 }
+.about-block__marker {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
 .about-block__img {
   width: 630px;
   height: 470px;
@@ -249,7 +254,7 @@ body, html {
   font-family: "GothamBook", sans-serif;
 }
 .about-block__subtitle {
-  font-size: 44px;
+  font-size: 39px;
   font-weight: bold;
   margin: 10px 0 29px;
   text-transform: uppercase;
@@ -261,6 +266,8 @@ body, html {
   color: #4b5562;
   margin-bottom: 36px;
   font-family: "OpenSans", sans-serif;
+  overflow: hidden;
+  height: 85px;
 }
 .about-block__button {
   width: 190px;
@@ -272,6 +279,12 @@ body, html {
   text-transform: uppercase;
   margin-bottom: 60px;
   font-family: "GothamBook", sans-serif;
+}
+.about-block__button:hover {
+  background: #55b7ff;
+  border-color: #55b7ff;
+  color: #fff;
+  font-size: 16px;
 }
 .about-block__undertext {
   font-size: 18px;
