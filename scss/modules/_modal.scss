@@ -1,0 +1,43 @@
+.modal-window {
+  position: fixed;
+  top: 25vh;
+  left: calc(30% + 60px);
+  display: flex;
+  padding: 20px;
+  width: 40%;
+  height: 50vh;
+  background: #fff;
+  overflow-y: scroll;
+  z-index: 999;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &__close {
+    position: fixed;
+    top: 25vh;
+    right: calc(30% - 55px);
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &__details {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $Gotham_Book;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+}
+
+.hide {
+  display: none;
+}

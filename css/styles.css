@@ -149,12 +149,15 @@ body, html {
 .footer {
   height: 524px;
   background: url(../images/BackgroundFooter.png);
+  background-size: cover;
 }
 .footer-block {
-  margin: 250px 0 0 20px;
+  margin-top: 250px;
   color: #fff;
   font-size: 14px;
   font-family: "GothamBook", sans-serif;
+  width: 770px;
+  padding: 0;
 }
 .footer-block__text {
   display: inline-block;
@@ -163,6 +166,8 @@ body, html {
 
 .navigation-block--footer {
   top: 200px;
+  max-width: 770px;
+  padding: 0;
 }
 
 .navigation {
@@ -261,7 +266,7 @@ body, html {
   font-family: "gothambold1", sans-serif;
 }
 .about-block__text {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 30px;
   color: #4b5562;
   margin-bottom: 36px;
@@ -628,6 +633,12 @@ body, html {
   margin-top: 60px;
   font-family: "GothamBook", sans-serif;
 }
+.projects__button:hover {
+  background: #55b7ff;
+  border-color: #55b7ff;
+  color: #fff;
+  font-size: 16px;
+}
 .projects-wrapper {
   width: 100%;
 }
@@ -641,7 +652,7 @@ body, html {
 
 .contact {
   position: absolute;
-  top: 4800px;
+  top: 4870px;
   left: calc(50% - 385px);
   background: #fff;
   width: 770px;
@@ -662,6 +673,47 @@ body, html {
 .map {
   width: 100%;
   height: 700px;
+}
+
+.modal-window {
+  position: fixed;
+  top: 25vh;
+  left: calc(30% + 60px);
+  display: flex;
+  padding: 20px;
+  width: 40%;
+  height: 50vh;
+  background: #fff;
+  overflow-y: scroll;
+  z-index: 999;
+}
+.modal-window::-webkit-scrollbar {
+  width: 10px;
+}
+.modal-window__close {
+  position: fixed;
+  top: 25vh;
+  right: calc(30% - 55px);
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 400;
+}
+.modal-window__details {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.modal-window__title {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "GothamBook", sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.hide {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

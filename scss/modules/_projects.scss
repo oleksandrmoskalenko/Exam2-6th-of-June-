@@ -57,6 +57,13 @@
     text-transform: uppercase;
     margin-top: 60px;
     font-family: $Gotham_Book;
+
+    &:hover {
+      background: #55b7ff;
+      border-color: #55b7ff;
+      color: #fff;
+      font-size: 16px;
+    }
   }
 
   &-wrapper {

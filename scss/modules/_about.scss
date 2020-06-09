@@ -16,7 +16,7 @@
   }
 
   &-block {
-    @include size(880px, 470px);
+    @include size(880px,470px);
     margin-bottom: 210px;
 
     &__marker {
@@ -52,7 +52,7 @@
     }
 
     &__text {
-      font-size: 18px;
+      font-size: 17px;
       line-height: 30px;
       color: #4b5562;
       margin-bottom: 36px;

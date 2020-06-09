@@ -1,12 +1,15 @@
 .footer {
   height: 524px;
   background: url(../images/BackgroundFooter.png);
+  background-size: cover;
 
   &-block {
-    margin: 250px 0 0 20px;
+    margin-top: 250px;
     color: #fff;
     font-size: 14px;
     font-family: $Gotham_Book;
+    width: 770px;
+    padding: 0;
 
     &__text {
       display: inline-block;
@@ -17,4 +20,6 @@
 
 .navigation-block--footer {
   top: 200px;
+  max-width: 770px;
+  padding: 0;
 }
