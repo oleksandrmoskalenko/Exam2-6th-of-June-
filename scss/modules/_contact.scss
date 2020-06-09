@@ -5,6 +5,10 @@
   background: #fff;
   @include size(770px, 450px);
 
+  @media (max-width: 991px) {
+    top: 4985px;
+  }
+
   
   &-title {
     margin-top: 70px;

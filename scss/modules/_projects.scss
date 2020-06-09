@@ -16,8 +16,11 @@
   }
 
   &-block {
+
+
     &__img {
       @include size (275px, 214px);
+
       &--big {
         @include size (560px, 438px);
         background: url(../images/Gallery1big.png) 100% 100% no-repeat;

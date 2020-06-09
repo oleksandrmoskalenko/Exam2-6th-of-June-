@@ -658,6 +658,11 @@ body, html {
   width: 770px;
   height: 450px;
 }
+@media (max-width: 991px) {
+  .contact {
+    top: 4985px;
+  }
+}
 .contact-title {
   margin-top: 70px;
 }
