@@ -68,9 +68,10 @@
     }
 
     &__img {
+      position: relative;
       @include size(350px, 240px);
       background-size: cover;
-      color: #2c4058;
+      color: $black;
       margin: 0 auto;
 
       @media (max-width: 1199px) {
@@ -93,6 +94,14 @@
         background: url(../images/News3-img.png) 100% 25% no-repeat;
         background-size: cover;
       }
+    }
+
+    &__icon {
+      position: absolute;
+      @include size(80px);
+      top: calc(50% - 40px);
+      left: calc(50% - 40px);
+      display: none;
     }
 
     &__subtitle {
@@ -167,7 +176,7 @@
       &-name {
         width: 150px;
         font-size: 18px;
-        color: #2c4058;
+        color: $black;
 
         @media (max-width: 991px) {
           font-size: 14px;
@@ -176,7 +185,7 @@
 
       &-date {
         font-size: 14px;
-        color: #55b7ff;
+        color: $blue;
         margin-top: 8px;
 
         @media (max-width: 991px) {

@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 d-flex justify-content-between navigation-block">
-					<a href="#" class="navigation__link">
+					<a href="#footer" class="navigation__link">
 						<h2><img src="images/headerLogo.png" alt="logo-monticello"></h2>
 					</a>
 					<nav class="nav">
@@ -60,11 +60,11 @@
 								</a></li>
 							<li class="menu__item"><a href="#news" class="d-flex menu__link">
 									<div class="circle"></div>
-									<p>Projects</p>
+									<p class="menu__text">Projects</p>
 								</a></li>
 							<li class="menu__item"><a href="#contact" class="d-flex menu__link">
 									<div class="circle"></div>
-									<p>Contact</p>
+									<p class="menu__text">Contact</p>
 								</a></li>
 						</ul>
 					</nav>
@@ -151,7 +151,7 @@
 						<button class="about-block__button about-block__button--trade">More
 							details</button>
 						<div class="about-block__underblock d-flex">
-							<img src="images/about-marker.svg" alt="height-marker" class="about-block__marker">
+							<img src="images/marker.svg" alt="height-marker" class="about-block__marker">
 							<p class="about-block__undertext"> New York City, United States - 1776 feet</p>
 						</div>
 					</div>
@@ -212,7 +212,7 @@
 						</p>
 						<button class="about-block__button about-block__button--commerce">More details</button>
 						<div class="about-block__underblock d-flex">
-							<img src="images/about-marker.svg" alt="height-marker" class="about-block__marker">
+							<img src="images/marker.svg" alt="height-marker" class="about-block__marker">
 							<p class="about-block__undertext"> Hong Kong - 1588 Feet</p>
 						</div>
 					</div>
@@ -239,7 +239,9 @@
 					<div class="col-12 d-flex justify-content-between news-block slider">
 
 						<article class="news-block__article">
-							<div class="news-block__img news-block__img--1"></div>
+							<div class="news-block__img news-block__img--1">
+								<img src="images/plus.png" alt="plus" class="news-block__icon">
+							</div>
 							<div class="news-block__article-text">
 								<h3 class="news-block__subtitle">See The Unmatched Beauty Of The Great</h3>
 								<p class="news-block__text">Free directories: directories are perfect for customers that are...
@@ -256,7 +258,9 @@
 						</article>
 
 						<article class="news-block__article">
-							<div class="news-block__img news-block__img--2"></div>
+							<div class="news-block__img news-block__img--2">
+								<img src="images/plus.png" alt="plus" class="news-block__icon">
+							</div>
 							<div class="news-block__article-text">
 								<h3 class="news-block__subtitle">Effective Advertising Pointers</h3>
 								<p class="news-block__text">Having a home based business is a wonderful asset to your life...
@@ -272,7 +276,9 @@
 						</article>
 
 						<article class="news-block__article">
-							<div class="news-block__img news-block__img--3"></div>
+							<div class="news-block__img news-block__img--3">
+								<img src="images/plus.png" alt="plus" class="news-block__icon">
+							</div>
 							<div class="news-block__article-text">
 								<h3 class="news-block__subtitle">Hypnotize Yourself Into The Ghost</h3>
 								<p class="news-block__text">There are many things that are important to catalog design....
@@ -288,7 +294,9 @@
 						</article>
 
 						<article class="news-block__article">
-							<div class="news-block__img news-block__img--1"></div>
+							<div class="news-block__img news-block__img--1">
+								<img src="images/plus.png" alt="plus" class="news-block__icon">
+							</div>
 							<div class="news-block__article-text">
 								<h3 class="news-block__subtitle">See The Unmatched Beauty Of The Great</h3>
 								<p class="news-block__text">Free directories: directories are perfect for customers that are...
@@ -305,7 +313,9 @@
 						</article>
 
 						<article class="news-block__article">
-							<div class="news-block__img news-block__img--2"></div>
+							<div class="news-block__img news-block__img--2">
+								<img src="images/plus.png" alt="plus" class="news-block__icon">
+							</div>
 							<div class="news-block__article-text">
 								<h3 class="news-block__subtitle">Effective Advertising Pointers</h3>
 								<p class="news-block__text">Having a home based business is a wonderful asset to your life...
@@ -363,15 +373,50 @@
 
 	<section class="contact" id="contact">
 		<div class="container">
-			<div class="row">
+			<div class="row contact__wrapper">
 				<div class="col-12 d-flex flex-column justify-content-center align-items-center contact-title">
 					<div class="line"></div>
 					<h2 class="contact-title__title">Get in touch</h2>
 				</div>
-				<div class="col-12">
-					<div class="contact-block">
+				<div class="col-6 contact-block">
+					<div class="contact-block__info d-flex">
+						<svg class="contact-block__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path fill="#7e5aff"
+								d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+						</svg>
+						<p class="contact-block__text">91 Nolan Extensions Suite 670</p>
+					</div>
+					<div class="contact-block__info d-flex">
+						<svg class="contact-block__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path fill="#7e5aff"
+								d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+						</svg>
+						<p class="contact-block__text">+001 356-868-2454</p>
+					</div>
+					<div class="contact-block__info d-flex">
+						<svg class="contact-block__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path fill="#7e5aff"
+								d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+						</svg>
+						<p class="contact-block__text">gahuy93@gmail.com</p>
+					</div>
+					<div class="contact-block__info d-flex">
+						<svg class="contact-block__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path fill="#7e5aff"
+								d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+							<path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z" /></svg>
+						<p class="contact-block__text">From 07:05AM to 19:30PM</p>
 					</div>
 				</div>
+				<form class="col-6 contact-block d-flex flex-column justify-content-between">
+					<input type="text" placeholder="Molina Medina" class="contact-block__input">
+					<input type="email" placeholder="Email" class="contact-block__input">
+					<button type="submit" class="contact-block__button">Submit</button>
+				</form>
 			</div>
 		</div>
 	</section>

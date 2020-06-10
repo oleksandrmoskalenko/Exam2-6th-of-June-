@@ -1,9 +1,7 @@
 'use script'
 
 $(document).ready(function () {
-  // $('.menu__text').mouseover(function () {
-  //   $(this).parent().find('.circle').css('background: #fff')
-  // })
+  $(document).find('.news-block__icon').css('display', 'none')
 
   $('.slider').slick({
     slidesToShow: 3,
@@ -203,17 +201,56 @@ function initMap() {
     $('.modal-window').removeClass('hide')
     let tmp = $(document).find('.about-block__text--trade').html()
     $(document).find('.modal-window__details').append(`<h2 class="modal-window__title">Trade centre</h2>`, tmp)
+    tmp = null
   })
 
   $(document).on('click', '.about-block__button--commerce', function () {
     $('.modal-window').removeClass('hide')
     let tmp = $(document).find('.about-block__text--commerce').html()
     $(document).find('.modal-window__details').append(`<h2 class="modal-window__title">Commerce centre</h2>`, tmp)
+    tmp = null
   })
 
   $(document).on('click', '.projects__button', function () {
     $('.modal-window').removeClass('hide')
     $(document).find('.modal-window__details').append(`<h1 class="modal-window__title">Gallery</h1>`, `<div class="projects-block__img--big">`)
+  })
+
+  $(document).on('mouseover', '.menu__item', function () {
+    $(this).children().find('.circle').css('background', '#fff')
+  })
+
+  $(document).on('mouseout', '.menu__item', function () {
+    $(this).children().find('.circle').css('background', 'none')
+  })
+
+  $(document).on('mouseover', '.news-block__img', function () {
+    $(this).find('.news-block__icon').css('display', 'block')
+  })
+
+  $(document).on('mouseout', '.news-block__img', function () {
+    $(this).find('.news-block__icon').css('display', 'none')
+  })
+
+  $(document).on('click', '.news-block__icon', function () {
+    $('.modal-window').removeClass('hide')
+    let tmp = $(this).parent().css('background')
+    $(document)
+      .find('.modal-window__details').append(`<div></div>`)
+      .css({ 'width': '100%', 'background': `${tmp}`, 'background-position': '50% 50%', 'background-size': 'auto' })
+    tmp = null
+    tmp = $(this).parent().parent().find('.news-block__subtitle').html()
+    $(document).find('.modal-window__details').append(`<div>${tmp}</div>`)
+      .css({ 'font-size': '30px', 'text-transform': 'uppercase', 'text-align': 'center', 'font-weight': 'bold' })
+    tmp = null
+  })
+
+  $(document).on('click', '.contact-block__input', function () {
+    $(this).css('border-color', '#2c4058')
+  })
+
+  $(document).on('blur', '.contact-block__input', function () {
+    $(this).css('border-color', '#2c405850')
   })
 }
 

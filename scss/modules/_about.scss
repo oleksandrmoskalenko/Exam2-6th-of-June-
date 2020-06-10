@@ -9,7 +9,7 @@
       margin: 35px 0 165px;
       font-size: 44px;
       font-weight: bold;
-      color: #2c4058;
+      color: $black;
       text-transform: uppercase;
       font-family: $Gotham_Bold;
     }
@@ -35,7 +35,7 @@
     }
 
     &__info {
-      color: #2c4058;
+      color: $black;
     }
 
     &__subsubtitle {
@@ -64,16 +64,16 @@
     &__button {
       @include size (190px, 50px);
       font-size: 14px;
-      color: #2c4058;
+      color: $black;
       background-color: #fff;
-      border: solid 1px #2c4058;
+      border: solid 1px $black;
       text-transform: uppercase;
       margin-bottom: 60px;
       font-family: $Gotham_Book;
 
       &:hover {
-        background: #55b7ff;
-        border-color: #55b7ff;
+        background: $blue;
+        border-color: $blue;
         color: #fff;
         font-size: 16px;
       }
@@ -91,7 +91,7 @@
       &--blue {
         top: 273px;
         left: 0;
-        background: #55b7ff;
+        background: $blue;
       }
       &--violet {
         top: 953px;

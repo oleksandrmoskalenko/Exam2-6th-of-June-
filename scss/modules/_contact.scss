@@ -9,17 +9,61 @@
     top: 4985px;
   }
 
+  &__wrapper{
+    padding: 0 62px 80px;
+  }
   
   &-title {
     margin-top: 70px;
     
     &__title {
-      margin: 35px 0 165px;
+      margin: 35px 0 49px;
       font-size: 44px;
       font-weight: bold;
-      color: #2c4058;
+      color: $black;
       text-transform: uppercase;
       font-family: $Gotham_Bold;
+    }
+  }
+
+  &-block {
+    font-family: $Gotham_Book;
+    &__text {
+      color: $black;
+      font-size: 18px;
+      margin: 0 0 35px 10px;
+    }
+
+    &__icon {
+      @include size(18px);
+    }
+
+    &__button {
+      @include size(140px, 50px);
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $black;
+      background: none;
+      border: solid 1px $black;
+      align-self: flex-end;
+
+      &:hover {
+        background: $blue;
+        border-color: $blue;
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+
+    &__input {
+      @include size(310px, 35px);
+      font-size: 18px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #2c405850;
+      color: $black;
+      &::placeholder {
+        color: #2c405850;
+      }
     }
   }
 }

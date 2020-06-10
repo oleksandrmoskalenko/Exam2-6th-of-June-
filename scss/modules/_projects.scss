@@ -9,7 +9,7 @@
       margin: 35px 0 165px;
       font-size: 44px;
       font-weight: bold;
-      color: #2c4058;
+      color: $black;
       text-transform: uppercase;
       font-family: $Gotham_Bold;
     }
@@ -54,16 +54,16 @@
   &__button {
     @include size (190px, 50px);
     font-size: 14px;
-    color: #2c4058;
+    color: $black;
     background-color: #fff;
-    border: solid 1px #2c4058;
+    border: solid 1px $black;
     text-transform: uppercase;
     margin-top: 60px;
     font-family: $Gotham_Book;
 
     &:hover {
-      background: #55b7ff;
-      border-color: #55b7ff;
+      background: $blue;
+      border-color: $blue;
       color: #fff;
       font-size: 16px;
     }
@@ -78,5 +78,16 @@
     @include size(80px);
     top: calc(50% - 40px);
     left: calc(50% - 40px);
+
+    &:hover {
+      -webkit-animation: spin 3s linear infinite;
+      -moz-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+    }
   }
 }
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
