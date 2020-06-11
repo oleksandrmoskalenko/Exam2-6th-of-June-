@@ -14,10 +14,10 @@
   }
   
   &-title {
-    margin-top: 70px;
+    margin-top: 60px;
     
     &__title {
-      margin: 35px 0 49px;
+      margin: 30px 0 49px;
       font-size: 44px;
       font-weight: bold;
       color: $black;
@@ -32,6 +32,10 @@
       color: $black;
       font-size: 18px;
       margin: 0 0 35px 10px;
+
+      &--margin {
+        margin-bottom: 0;
+      }
     }
 
     &__icon {
@@ -58,7 +62,7 @@
     &__input {
       @include size(310px, 35px);
       font-size: 18px;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
       border-bottom: 1px solid #2c405850;
       color: $black;
       &::placeholder {
